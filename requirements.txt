@@ -1,0 +1,56 @@
+# ============================================================
+# MessMetric - Backend Dependencies
+# ============================================================
+
+# -------------------------
+# Web Framework
+# -------------------------
+fastapi
+uvicorn[standard]
+
+# -------------------------
+# Database
+# -------------------------
+sqlalchemy
+psycopg2-binary
+alembic
+
+# -------------------------
+# Configuration
+# -------------------------
+python-dotenv
+pydantic-settings
+
+# -------------------------
+# Authentication
+# -------------------------
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+
+# -------------------------
+# Request / Form Handling
+# -------------------------
+python-multipart
+
+# -------------------------
+# Scheduling
+# -------------------------
+apscheduler
+
+# -------------------------
+# Email
+# -------------------------
+fastapi-mail
+
+# -------------------------
+# PDF / Reports / Charts
+# -------------------------
+weasyprint
+matplotlib
+
+# -------------------------
+# Testing
+# -------------------------
+pytest
+httpx
